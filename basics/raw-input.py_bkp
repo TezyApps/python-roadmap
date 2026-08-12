@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+"""
+For turotialpoint:
+https://www.tutorialspoint.com/python/python_basic_syntax.htm
+The following line of the program displays the prompt, the statement saying Press the enter key to exit, and waits for the user to take action −
+
+[claude] - why this doesn't work?
+"""
+raw_input("\n\nPress the enter key to exit.")
