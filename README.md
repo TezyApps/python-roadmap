@@ -15,3 +15,11 @@ Based on the data type of a variable, memory space is allocated to it. Therefore
 1. [Intro](./variables/intro.py)
 2. [Area_Perimeter](./variables/area_perimeter.py)
 3. [Scopes](./variables/scope.py)
+4. [public, private, protected variables](./variables/publi_private_protected_variables.py)
+
+<details>
+<summary>References</summary>
+
+![public, private & protected varaibles diff](./resources/pub_pvt_protected_vars.png)
+
+</details>
