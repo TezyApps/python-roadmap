@@ -46,5 +46,37 @@ Based on the data type of a variable, memory space is allocated to it. Therefore
 | 16 | **`hex()`** — Converts an integer to a hexadecimal string. |
 | 17 | **`oct()`** — Converts an integer to an octal string. |
 
-
 </details>
+
+## Operators:
+
+1. [Arithmetic](./operators/arithmetic.py)
+2. [Logical](./operators/logical.py)
+3. [Bitwise](./operators/bitwise.py)
+4. [Comparison](./operators/comparison.py)
+5. [Identity](./operators/identity_ops.py)
+6. [Membership Operators](./operators/membership_operators.py)
+
+### References:
+ 
+ ```py
+
+# Arithmetic:
+    +, -, *, /, //, **, %
+
+# Logical:
+    and, or, not
+
+# Bitwise:
+    &, |, ~, ^, <<, >>
+
+# Comparison:
+    ==, !=, >, >=, <, <=
+
+# Identity:
+    is, is not
+
+# Membership Operators:
+    in, not in
+
+```
