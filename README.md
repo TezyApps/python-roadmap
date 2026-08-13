@@ -56,6 +56,7 @@ Based on the data type of a variable, memory space is allocated to it. Therefore
 4. [Comparison](./operators/comparison.py)
 5. [Identity](./operators/identity_ops.py)
 6. [Membership Operators](./operators/membership_operators.py)
+7. [Ternary Operators](./operators/ternary_operator.py)
 
 ### References:
  
@@ -78,5 +79,9 @@ Based on the data type of a variable, memory space is allocated to it. Therefore
 
 # Membership Operators:
     in, not in
+
+# Ternary operators:
+    <statement> if <condition> else <other_statement>
+    e.g., `'Drive' if is_green_signal else 'Stop or prepare to Stop'`
 
 ```
