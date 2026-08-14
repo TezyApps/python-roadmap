@@ -134,6 +134,7 @@ Covers Python's operator categories — arithmetic, logical, bitwise, comparison
 ## Loops:
 
 1. [For Loops](./loops/for-loops.py)
+2. [While Loops](./loops/while-loops.py)
 
 <details>
 <summary>References</summary>
@@ -189,6 +190,24 @@ Covers Python's operator categories — arithmetic, logical, bitwise, comparison
     from itertools import chain
     for val in chain(range(1,3), range(4,8,2)):
         ...
+
+# while: loops as long as the condition stays True
+    target = 0
+    while target < 5:
+        print(target)
+        target += 1
+
+# while...else: else runs only if the loop completes WITHOUT hitting a break
+    while target < 0:
+        ...
+    else:
+        print("condition not satisfied")
+
+# while True + break: common "loop until a condition is met inside" pattern
+    while True:
+        if count == 5:
+            break
+        count += 1
 
 ```
 
