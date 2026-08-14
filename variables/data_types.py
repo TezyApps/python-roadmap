@@ -161,4 +161,11 @@ arr = array.array('i', [1,2,3,4,5])
 amv = memoryview(arr)
 print(amv)
 
+# ["Apple", "Banana", "Cherry", "Grapes", "Pomgranate"]
+# ->    0       1       2           3           4
+# <-   -5      -4      -3          -2          -1
+items_to_buy = ["Apple", "Banana", "Cherry", "Grapes", "Pomgranate"]
+items_to_buy[1] # banana
+items_to_buy[-2] # grapes
+
 the_end()
